@@ -23,15 +23,15 @@
             <label for="terms-and-conditions"><input type="checkbox" required id="terms-and-conditions"> I accept the <a href="https://www.freecodecamp.org/news/terms-of-service/">terms and conditions</a></input></label>
         </fieldset>
         <fieldset>
-            <label> Upload a profile picture:
-                <input type="file"></input>
+            <label for="profile-picture"> Upload a profile picture:
+                <input type="file" id="profile-picture"></input>
             </label>
-            <label>
+            <label for="age">
                 Input your age(years):
-                <input type="number" min="13" max="120"></input>
+                <input type="number" min="13" max="120" id="age"></input>
             </label>
-            <label>How did you hear about us?
-                <select>
+            <label for="referrer">How did you hear about us?
+                <select id="referrer">
                     <option value="">(select one)</option>
                     <option value="1">freeCodeCamp News</option>
                     <option value="2">freeCodeCamp YoutTube Channel</option>
@@ -39,9 +39,9 @@
                     <option value="4">Other</option>
                 </select>
             </label>
-            <label>
+            <label for="bio">
                 Provide a bio:
-                    <textarea></textarea>
+                    <textarea id="bio"></textarea>
             </label>
         </fieldset>
         <input type="submit" value="Submit"/>
